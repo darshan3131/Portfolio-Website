@@ -208,3 +208,19 @@
     height: auto;
   }
 }
+
+.work-view-link {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--accentColor);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+.work-view-link:hover {
+  border-color: var(--accentColor);
+  color: var(--accentColor);
+}
