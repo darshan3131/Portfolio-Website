@@ -14,6 +14,30 @@
   padding-bottom: 0;
   width: 500px;
   max-width: calc(100% - 15px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.about-avatar {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.avatar-img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 2px solid var(--accentColor);
+  box-shadow: 0 0 24px rgba(0, 212, 255, 0.4);
+  object-fit: cover;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 .about-me h3 {
   font-size: 25px;

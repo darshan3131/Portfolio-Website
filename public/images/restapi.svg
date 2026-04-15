@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a2e1a"/>
+      <stop offset="100%" stop-color="#0d1a0d"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" fill="url(#bg)" rx="20"/>
+  <!-- REST API visualization -->
+  <!-- Server box left -->
+  <rect x="28" y="75" width="48" height="50" rx="6" fill="#1a3a2a" stroke="#00d4ff" stroke-width="2"/>
+  <text x="52" y="97" font-family="monospace" font-size="9" fill="#00d4ff" text-anchor="middle">CLIENT</text>
+  <rect x="35" y="103" width="34" height="4" rx="2" fill="#00d4ff" opacity="0.5"/>
+  <rect x="35" y="111" width="22" height="4" rx="2" fill="#00d4ff" opacity="0.3"/>
+  <!-- Server box right -->
+  <rect x="124" y="75" width="48" height="50" rx="6" fill="#1a3a2a" stroke="#00d4ff" stroke-width="2"/>
+  <text x="148" y="97" font-family="monospace" font-size="9" fill="#00d4ff" text-anchor="middle">SERVER</text>
+  <rect x="131" y="103" width="34" height="4" rx="2" fill="#00d4ff" opacity="0.5"/>
+  <rect x="131" y="111" width="22" height="4" rx="2" fill="#00d4ff" opacity="0.3"/>
+  <!-- Arrow right (GET/POST) -->
+  <line x1="78" y1="92" x2="122" y2="92" stroke="#4ade80" stroke-width="2.5"/>
+  <polygon points="122,88 130,92 122,96" fill="#4ade80"/>
+  <text x="100" y="89" font-family="monospace" font-size="9" fill="#4ade80" text-anchor="middle">GET/POST</text>
+  <!-- Arrow left (response) -->
+  <line x1="78" y1="112" x2="122" y2="112" stroke="#f59e0b" stroke-width="2.5"/>
+  <polygon points="78,108 70,112 78,116" fill="#f59e0b"/>
+  <text x="100" y="123" font-family="monospace" font-size="9" fill="#f59e0b" text-anchor="middle">JSON 200</text>
+  <!-- REST API label -->
+  <text x="100" y="158" font-family="Arial Black, sans-serif" font-size="17" font-weight="900" fill="#00d4ff" text-anchor="middle">REST API</text>
+</svg>
