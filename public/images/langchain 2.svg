@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0d0d1a"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" fill="url(#bg)" rx="20"/>
+  <!-- Chain link 1 -->
+  <rect x="48" y="72" width="44" height="26" rx="13" fill="none" stroke="#00d4ff" stroke-width="8"/>
+  <!-- Chain link 2 -->
+  <rect x="108" y="72" width="44" height="26" rx="13" fill="none" stroke="#00d4ff" stroke-width="8"/>
+  <!-- Chain link 3 (bottom) -->
+  <rect x="78" y="102" width="44" height="26" rx="13" fill="none" stroke="#7b5ea7" stroke-width="8"/>
+  <!-- Connecting piece -->
+  <rect x="88" y="92" width="24" height="16" rx="2" fill="#1a1a2e"/>
+  <rect x="88" y="95" width="24" height="10" rx="2" fill="#00d4ff" opacity="0.3"/>
+  <!-- LangChain text -->
+  <text x="100" y="152" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#00d4ff" text-anchor="middle">LANGCHAIN</text>
+  <text x="100" y="172" font-family="Arial, sans-serif" font-size="11" fill="#7b5ea7" text-anchor="middle">LangGraph</text>
+</svg>

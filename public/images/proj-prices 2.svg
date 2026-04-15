@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080810"/>
+      <stop offset="100%" stop-color="#080f18"/>
+    </linearGradient>
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#4ade80"/>
+    </linearGradient>
+    <linearGradient id="area-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <!-- Chart area -->
+  <rect x="50" y="40" width="500" height="240" rx="8" fill="#0d0d1a" stroke="#1a1a3e" stroke-width="1"/>
+  <!-- Y-axis lines -->
+  <line x1="80" y1="60" x2="530" y2="60" stroke="#1a1a3e" stroke-width="1"/>
+  <line x1="80" y1="100" x2="530" y2="100" stroke="#1a1a3e" stroke-width="1"/>
+  <line x1="80" y1="140" x2="530" y2="140" stroke="#1a1a3e" stroke-width="1"/>
+  <line x1="80" y1="180" x2="530" y2="180" stroke="#1a1a3e" stroke-width="1"/>
+  <line x1="80" y1="220" x2="530" y2="220" stroke="#1a1a3e" stroke-width="1"/>
+  <line x1="80" y1="260" x2="530" y2="260" stroke="#1a1a3e" stroke-width="1"/>
+  <!-- Y-axis labels -->
+  <text x="72" y="64" font-family="monospace" font-size="9" fill="#555" text-anchor="end">500k</text>
+  <text x="72" y="104" font-family="monospace" font-size="9" fill="#555" text-anchor="end">400k</text>
+  <text x="72" y="144" font-family="monospace" font-size="9" fill="#555" text-anchor="end">300k</text>
+  <text x="72" y="184" font-family="monospace" font-size="9" fill="#555" text-anchor="end">200k</text>
+  <text x="72" y="224" font-family="monospace" font-size="9" fill="#555" text-anchor="end">100k</text>
+  <!-- Data fill area -->
+  <path d="M 80 220 L 130 200 L 180 210 L 230 170 L 280 140 L 330 160 L 380 120 L 430 90 L 480 110 L 530 80 L 530 260 L 80 260 Z" fill="url(#area-grad)"/>
+  <!-- Main price line (actual) -->
+  <polyline points="80,220 130,200 180,210 230,170 280,140 330,160 380,120 430,90 480,110 530,80" fill="none" stroke="url(#line-grad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Predicted line (dashed) -->
+  <polyline points="480,110 510,88 530,72" fill="none" stroke="#fbbf24" stroke-width="2" stroke-dasharray="6,3" stroke-linecap="round"/>
+  <!-- Data points -->
+  <circle cx="280" cy="140" r="4" fill="#00d4ff"/>
+  <circle cx="380" cy="120" r="4" fill="#00d4ff"/>
+  <circle cx="480" cy="110" r="4" fill="#00d4ff"/>
+  <circle cx="530" cy="80" r="4" fill="#4ade80"/>
+  <!-- Prediction point -->
+  <circle cx="510" cy="88" r="5" fill="#fbbf24" stroke="#fbbf24" stroke-width="2" fill-opacity="0.3"/>
+  <!-- Prediction annotation -->
+  <line x1="510" y1="88" x2="510" y2="68" stroke="#fbbf24" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="470" y="52" width="82" height="18" rx="4" fill="#2e2a1a" stroke="#fbbf24" stroke-width="1"/>
+  <text x="511" y="65" font-family="monospace" font-size="9" fill="#fbbf24" text-anchor="middle">Predicted ↑</text>
+  <!-- X-axis labels -->
+  <text x="130" y="278" font-family="monospace" font-size="9" fill="#555" text-anchor="middle">Jan</text>
+  <text x="230" y="278" font-family="monospace" font-size="9" fill="#555" text-anchor="middle">Mar</text>
+  <text x="330" y="278" font-family="monospace" font-size="9" fill="#555" text-anchor="middle">May</text>
+  <text x="430" y="278" font-family="monospace" font-size="9" fill="#555" text-anchor="middle">Jul</text>
+  <text x="530" y="278" font-family="monospace" font-size="9" fill="#555" text-anchor="middle">Sep</text>
+  <!-- Legend -->
+  <line x1="60" y1="302" x2="90" y2="302" stroke="#00d4ff" stroke-width="2"/>
+  <text x="96" y="306" font-family="monospace" font-size="10" fill="#aaa">Actual Price</text>
+  <line x1="200" y1="302" x2="230" y2="302" stroke="#fbbf24" stroke-width="2" stroke-dasharray="5,2"/>
+  <text x="236" y="306" font-family="monospace" font-size="10" fill="#aaa">ML Prediction</text>
+  <!-- Tech badges -->
+  <rect x="60" y="320" width="66" height="22" rx="11" fill="#1a2e1a" stroke="#4ade80" stroke-width="1"/>
+  <text x="93" y="335" font-family="Arial, sans-serif" font-size="9" fill="#4ade80" text-anchor="middle">scikit-learn</text>
+  <rect x="134" y="320" width="54" height="22" rx="11" fill="#1a2e1a" stroke="#60a5fa" stroke-width="1"/>
+  <text x="161" y="335" font-family="Arial, sans-serif" font-size="9" fill="#60a5fa" text-anchor="middle">MLflow</text>
+  <rect x="196" y="320" width="56" height="22" rx="11" fill="#1a2e1a" stroke="#ffd43b" stroke-width="1"/>
+  <text x="224" y="335" font-family="Arial, sans-serif" font-size="9" fill="#ffd43b" text-anchor="middle">Python</text>
+  <rect x="260" y="320" width="60" height="22" rx="11" fill="#1a2e1a" stroke="#aaa" stroke-width="1"/>
+  <text x="290" y="335" font-family="Arial, sans-serif" font-size="9" fill="#aaa" text-anchor="middle">Pandas</text>
+  <!-- Title -->
+  <text x="30" y="372" font-family="Arial, sans-serif" font-size="14" fill="#00d4ff">ML · Data Science</text>
+  <text x="30" y="394" font-family="Arial, sans-serif" font-size="11" fill="#666">Python · scikit-learn · MLflow · Pandas · NumPy</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080810"/>
+      <stop offset="100%" stop-color="#0a1020"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <!-- Table header -->
+  <rect x="30" y="50" width="540" height="36" rx="8" fill="#1a2e1a" stroke="#4ade80" stroke-width="1"/>
+  <text x="60" y="73" font-family="monospace" font-size="11" fill="#4ade80">ID</text>
+  <text x="110" y="73" font-family="monospace" font-size="11" fill="#4ade80">NAME</text>
+  <text x="230" y="73" font-family="monospace" font-size="11" fill="#4ade80">DEPARTMENT</text>
+  <text x="370" y="73" font-family="monospace" font-size="11" fill="#4ade80">SALARY</text>
+  <text x="460" y="73" font-family="monospace" font-size="11" fill="#4ade80">STATUS</text>
+  <!-- Table rows -->
+  <rect x="30" y="86" width="540" height="32" rx="0" fill="#0d1a0d" opacity="0.6"/>
+  <text x="60" y="107" font-family="monospace" font-size="10" fill="#aaa">001</text>
+  <text x="110" y="107" font-family="monospace" font-size="10" fill="white">Darshan S.</text>
+  <text x="230" y="107" font-family="monospace" font-size="10" fill="#60a5fa">Engineering</text>
+  <text x="370" y="107" font-family="monospace" font-size="10" fill="#fbbf24">₹85,000</text>
+  <rect x="458" y="96" width="48" height="18" rx="9" fill="#1a3a1a" stroke="#4ade80" stroke-width="1"/>
+  <text x="482" y="109" font-family="Arial, sans-serif" font-size="9" fill="#4ade80" text-anchor="middle">Active</text>
+  <rect x="30" y="118" width="540" height="32" rx="0" fill="#0d1520" opacity="0.6"/>
+  <text x="60" y="139" font-family="monospace" font-size="10" fill="#aaa">002</text>
+  <text x="110" y="139" font-family="monospace" font-size="10" fill="white">Priya K.</text>
+  <text x="230" y="139" font-family="monospace" font-size="10" fill="#60a5fa">Marketing</text>
+  <text x="370" y="139" font-family="monospace" font-size="10" fill="#fbbf24">₹72,000</text>
+  <rect x="458" y="128" width="48" height="18" rx="9" fill="#1a3a1a" stroke="#4ade80" stroke-width="1"/>
+  <text x="482" y="141" font-family="Arial, sans-serif" font-size="9" fill="#4ade80" text-anchor="middle">Active</text>
+  <rect x="30" y="150" width="540" height="32" rx="0" fill="#0d1a0d" opacity="0.6"/>
+  <text x="60" y="171" font-family="monospace" font-size="10" fill="#aaa">003</text>
+  <text x="110" y="171" font-family="monospace" font-size="10" fill="white">Arjun M.</text>
+  <text x="230" y="171" font-family="monospace" font-size="10" fill="#60a5fa">HR</text>
+  <text x="370" y="171" font-family="monospace" font-size="10" fill="#fbbf24">₹65,000</text>
+  <rect x="458" y="160" width="52" height="18" rx="9" fill="#3a1a1a" stroke="#f87171" stroke-width="1"/>
+  <text x="484" y="173" font-family="Arial, sans-serif" font-size="9" fill="#f87171" text-anchor="middle">On Leave</text>
+  <rect x="30" y="182" width="540" height="32" rx="0" fill="#0d1520" opacity="0.6"/>
+  <text x="60" y="203" font-family="monospace" font-size="10" fill="#aaa">004</text>
+  <text x="110" y="203" font-family="monospace" font-size="10" fill="white">Sneha R.</text>
+  <text x="230" y="203" font-family="monospace" font-size="10" fill="#60a5fa">Finance</text>
+  <text x="370" y="203" font-family="monospace" font-size="10" fill="#fbbf24">₹90,000</text>
+  <rect x="458" y="192" width="48" height="18" rx="9" fill="#1a3a1a" stroke="#4ade80" stroke-width="1"/>
+  <text x="482" y="205" font-family="Arial, sans-serif" font-size="9" fill="#4ade80" text-anchor="middle">Active</text>
+  <!-- CRUD Operation buttons -->
+  <rect x="30" y="230" width="60" height="30" rx="6" fill="#1a3a1a" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="60" y="249" font-family="monospace" font-size="10" fill="#4ade80" text-anchor="middle">GET</text>
+  <rect x="100" y="230" width="68" height="30" rx="6" fill="#1a2a3e" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="134" y="249" font-family="monospace" font-size="10" fill="#60a5fa" text-anchor="middle">POST</text>
+  <rect x="178" y="230" width="60" height="30" rx="6" fill="#2e2a1a" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="208" y="249" font-family="monospace" font-size="10" fill="#fbbf24" text-anchor="middle">PUT</text>
+  <rect x="248" y="230" width="80" height="30" rx="6" fill="#2e1a1a" stroke="#f87171" stroke-width="1.5"/>
+  <text x="288" y="249" font-family="monospace" font-size="10" fill="#f87171" text-anchor="middle">DELETE</text>
+  <!-- Tech badges -->
+  <rect x="30" y="272" width="76" height="22" rx="11" fill="#6db33f" opacity="0.2" stroke="#6db33f" stroke-width="1"/>
+  <text x="68" y="287" font-family="Arial, sans-serif" font-size="9" fill="#6db33f" text-anchor="middle">Spring Boot</text>
+  <rect x="114" y="272" width="66" height="22" rx="11" fill="#00758f" opacity="0.2" stroke="#00758f" stroke-width="1"/>
+  <text x="147" y="287" font-family="Arial, sans-serif" font-size="9" fill="#00d4ff" text-anchor="middle">Hibernate</text>
+  <rect x="188" y="272" width="54" height="22" rx="11" fill="#1a3a4a" stroke="#00d4ff" stroke-width="1"/>
+  <text x="215" y="287" font-family="Arial, sans-serif" font-size="9" fill="#00d4ff" text-anchor="middle">MySQL</text>
+  <rect x="250" y="272" width="54" height="22" rx="11" fill="#1a3a1a" stroke="#4ade80" stroke-width="1"/>
+  <text x="277" y="287" font-family="Arial, sans-serif" font-size="9" fill="#4ade80" text-anchor="middle">Lombok</text>
+  <!-- Title -->
+  <text x="30" y="335" font-family="Arial Black, sans-serif" font-size="22" font-weight="900" fill="white" opacity="0.1">EMPLOYEE MGMT</text>
+  <text x="30" y="360" font-family="Arial, sans-serif" font-size="14" fill="#00d4ff">Full Stack · CRUD</text>
+  <text x="30" y="385" font-family="Arial, sans-serif" font-size="11" fill="#666">Java 17 · Spring Boot · Hibernate/JPA · MySQL · Swagger</text>
+</svg>
