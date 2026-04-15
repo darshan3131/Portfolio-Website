@@ -1,5 +1,2 @@
-declare module 'gsap-trial/SplitText' {
-  const SplitText: any;
-  export default SplitText;
-  export { SplitText };
-}
+// gsap-trial replaced by gsap (free since April 30, 2025)
+// This file kept for any remaining legacy references

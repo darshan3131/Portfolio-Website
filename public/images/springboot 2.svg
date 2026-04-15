@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a2e1a"/>
+      <stop offset="100%" stop-color="#0d1a0d"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" fill="url(#bg)" rx="20"/>
+  <!-- Spring leaf logo -->
+  <circle cx="100" cy="90" r="52" fill="#6db33f"/>
+  <circle cx="100" cy="90" r="46" fill="#77bc1f"/>
+  <!-- Leaf/spring shape -->
+  <path d="M 100 55 Q 125 60 135 80 Q 145 100 130 115 Q 120 125 100 122 Q 80 125 70 115 Q 55 100 65 80 Q 75 60 100 55 Z" fill="#6db33f"/>
+  <!-- Arrow in center -->
+  <path d="M 78 90 L 110 90" stroke="white" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 100 78 L 112 90 L 100 102" stroke="white" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Circular arrow -->
+  <path d="M 65 78 Q 60 95 68 110" stroke="white" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <text x="100" y="165" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#6db33f" text-anchor="middle">SPRING BOOT</text>
+</svg>
