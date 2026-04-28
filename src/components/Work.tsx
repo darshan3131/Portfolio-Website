@@ -58,15 +58,22 @@ const Work = () => {
               name: "PayLedger",
               category: "Enterprise Payment System",
               tools: "Java 17 · Spring Boot 3 · Kafka · Redis · TiDB · React 18 · Twilio",
-              link: "",
+              link: "https://github.com/darshan3131/PayLedger",
               image: "/images/proj-payledger.svg",
             },
             {
               name: "Task Management API",
               category: "Backend · REST API",
               tools: "Java 17 · Spring Boot 3 · Spring Security · JWT · MySQL · Swagger",
-              link: "",
+              link: "https://github.com/darshan3131/task-management-api",
               image: "/images/proj-taskapi.svg",
+            },
+            {
+              name: "Employee Management System",
+              category: "Full Stack · CRUD",
+              tools: "Java 17 · Spring Boot · Hibernate/JPA · MySQL · Lombok · Swagger",
+              link: "https://github.com/darshan3131/employee-management-system",
+              image: "/images/proj-ems.svg",
             },
             {
               name: "Drafter AI",
@@ -81,13 +88,6 @@ const Work = () => {
               tools: "Python · LangGraph · FastAPI · OpenAI API",
               link: "https://github.com/darshan3131/langgraph-ai-agents",
               image: "/images/proj-langgraph.svg",
-            },
-            {
-              name: "Employee Management System",
-              category: "Full Stack · CRUD",
-              tools: "Java 17 · Spring Boot · Hibernate/JPA · MySQL · Lombok · Swagger",
-              link: "",
-              image: "/images/proj-ems.svg",
             },
             {
               name: "Prices Predictor",

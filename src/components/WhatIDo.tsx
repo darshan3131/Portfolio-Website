@@ -100,12 +100,12 @@ const WhatIDo = () => {
                 <div className="what-tags">Spring Boot 3</div>
                 <div className="what-tags">Spring Security</div>
                 <div className="what-tags">Hibernate/JPA</div>
-                <div className="what-tags">React</div>
+                <div className="what-tags">React.js</div>
                 <div className="what-tags">REST APIs</div>
                 <div className="what-tags">JWT</div>
+                <div className="what-tags">NestJS</div>
                 <div className="what-tags">MySQL</div>
                 <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">Docker</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -129,24 +129,25 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>AI / GenAI</h3>
-              <h4>Intelligent Systems</h4>
+              <h3>SYSTEMS</h3>
+              <h4>Distributed & DevOps</h4>
               <p>
-                Shipping RAG pipelines, stateful LLM agent workflows, and ML
-                models — from prototype to production-deployed API endpoints.
+                Architecting event-driven backends with Kafka, caching layers
+                with Redis, containerised deployments with Docker, and CI/CD
+                pipelines for production-grade reliability.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Python</div>
-                <div className="what-tags">LangChain</div>
-                <div className="what-tags">LangGraph</div>
-                <div className="what-tags">FastAPI</div>
-                <div className="what-tags">OpenAI API</div>
-                <div className="what-tags">RAG</div>
-                <div className="what-tags">MLflow</div>
-                <div className="what-tags">scikit-learn</div>
-                <div className="what-tags">Pydantic</div>
-                <div className="what-tags">MCP</div>
+                <div className="what-tags">Kafka</div>
+                <div className="what-tags">Redis</div>
+                <div className="what-tags">Docker</div>
+                <div className="what-tags">Microservices</div>
+                <div className="what-tags">CI/CD</div>
+                <div className="what-tags">GitHub</div>
+                <div className="what-tags">Maven</div>
+                <div className="what-tags">Linux</div>
+                <div className="what-tags">Vercel</div>
+                <div className="what-tags">Railway</div>
               </div>
               <div className="what-arrow"></div>
             </div>

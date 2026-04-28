@@ -15,12 +15,12 @@ const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
   "/images/java.svg",
   "/images/springboot.svg",
-  "/images/python.svg",
-  "/images/langchain.svg",
-  "/images/genai.svg",
+  "/images/react.svg",
+  "/images/kafka.svg",
+  "/images/redis.svg",
+  "/images/docker.svg",
   "/images/sql.svg",
   "/images/git.svg",
-  "/images/restapi.svg",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
